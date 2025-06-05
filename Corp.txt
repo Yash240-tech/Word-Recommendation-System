@@ -1,240 +1,95 @@
-**Subject:** Elevate Your Brand with Us! 🚀
+Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.[1]
 
-Looking to expand your reach and boost your brand? Advertise with us and connect with a highly engaged audience! Our platform offers premium ad placements tailored to your needs, ensuring maximum visibility and impact. Whether you're launching a new product, running a promotion, or building awareness, we’ve got you covered. With competitive rates and personalized campaigns, we’ll help you achieve your goals effectively. Don't miss this opportunity to stand out in the market.
+High-profile applications of AI include advanced web search engines (e.g., Google Search); recommendation systems (used by YouTube, Amazon, and Netflix); virtual assistants (e.g., Google Assistant, Siri, and Alexa); autonomous vehicles (e.g., Waymo); generative and creative tools (e.g., ChatGPT and AI art); and superhuman play and analysis in strategy games (e.g., chess and Go). However, many AI applications are not perceived as AI: "A lot of cutting edge AI has filtered into general applications, often without being called AI because once something becomes useful enough and common enough it's not labeled AI anymore."[2][3]
 
-📩 Contact us today to learn more and secure your spot!
+Various subfields of AI research are centered around particular goals and the use of particular tools. The traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, perception, and support for robotics.[a] To reach these goals, AI researchers have adapted and integrated a wide range of techniques, including search and mathematical optimization, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics.[b] AI also draws upon psychology, linguistics, philosophy, neuroscience, and other fields.[4] Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI)—AI that can complete virtually any cognitive task at least as well as a human.[5]
 
-[Your Contact Information]
-Let's grow together!
-END TERM REPORT
-For
+Artificial intelligence was founded as an academic discipline in 1956,[6] and the field went through multiple cycles of optimism throughout its history,[7][8] followed by periods of disappointment and loss of funding, known as AI winters.[9][10] Funding and interest vastly increased after 2012 when graphics processing units started being used to accelerate neural networks, and deep learning outperformed previous AI techniques.[11] This growth accelerated further after 2017 with the transformer architecture.[12] In the 2020s, the period of rapid progress marked by advanced generative AI became known as the AI boom. Generative AI and its ability to create and modify content exposed several unintended consequences and harms in the present and raised ethical concerns about AI's long-term effects and potential existential risks, prompting discussions about regulatory policies to ensure the safety and benefits of the technology.
 
-Word Recommendation System for English Language
+Goals
+The general problem of simulating (or creating) intelligence has been broken into subproblems. These consist of particular traits or capabilities that researchers expect an intelligent system to display. The traits described below have received the most attention and cover the scope of AI research.[a]
 
-Under the guidance of
+Reasoning and problem-solving
+Early researchers developed algorithms that imitated step-by-step reasoning that humans use when they solve puzzles or make logical deductions.[13] By the late 1980s and 1990s, methods were developed for dealing with uncertain or incomplete information, employing concepts from probability and economics.[14]
 
-Dr. Mohammad Ahsan
-Assistant Professor
-Artificial Intelligence Cluster
+Many of these algorithms are insufficient for solving large reasoning problems because they experience a "combinatorial explosion": They become exponentially slower as the problems grow.[15] Even humans rarely use the step-by-step deduction that early AI research could model. They solve most of their problems using fast, intuitive judgments.[16] Accurate and efficient reasoning is an unsolved problem.Knowledge representation and knowledge engineering[17] allow AI programs to answer questions intelligently and make deductions about real-world facts. Formal knowledge representations are used in content-based indexing and retrieval,[18] scene interpretation,[19] clinical decision support,[20] knowledge discovery (mining "interesting" and actionable inferences from large databases),[21] and other areas.[22]
 
-Prepared by
+A knowledge base is a body of knowledge represented in a form that can be used by a program. An ontology is the set of objects, relations, concepts, and properties used by a particular domain of knowledge.[23] Knowledge bases need to represent things such as objects, properties, categories, and relations between objects;[24] situations, events, states, and time;[25] causes and effects;[26] knowledge about knowledge (what we know about what other people know);[27] default reasoning (things that humans assume are true until they are told differently and will remain true even when other facts are changing);[28] and many other aspects and domains of knowledge.
 
+Among the most difficult problems in knowledge representation are the breadth of commonsense knowledge (the set of atomic facts that the average person knows is enormous);[29] and the sub-symbolic form of most commonsense knowledge (much of what people know is not represented as "facts" or "statements" that they could express verbally).[16] There is also the difficulty of knowledge acquisition, the problem of obtaining knowledge for AI applications.[c]
 
-Specialization	SAP ID	Name
-AIML	500107121	Aryan.
-AIML	500108364	Raman Agrawal
-AIML	500107071	Ananya Gambhir
-AIML	500108587	Yash Dangi
+Planning and decision-making
+An "agent" is anything that perceives and takes actions in the world. A rational agent has goals or preferences and takes actions to make them happen.[d][32] In automated planning, the agent has a specific goal.[33] In automated decision-making, the agent has preferences—there are some situations it would prefer to be in, and some situations it is trying to avoid. The decision-making agent assigns a number to each situation (called the "utility") that measures how much the agent prefers it. For each possible action, it can calculate the "expected utility": the utility of all possible outcomes of the action, weighted by the probability that the outcome will occur. It can then choose the action with the maximum expected utility.[34]
 
+In classical planning, the agent knows exactly what the effect of any action will be.[35] In most real-world problems, however, the agent may not be certain about the situation they are in (it is "unknown" or "unobservable") and it may not know for certain what will happen after each possible action (it is not "deterministic"). It must choose an action by making a probabilistic guess and then reassess the situation to see if the action worked.[36]
 
+In some problems, the agent's preferences may be uncertain, especially if there are other agents or humans involved. These can be learned (e.g., with inverse reinforcement learning), or the agent can seek information to improve its preferences.[37] Information value theory can be used to weigh the value of exploratory or experimental actions.[38] The space of possible future actions and situations is typically intractably large, so the agents must take actions and evaluate situations while being uncertain of what the outcome will be.
 
+A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of each state and the cost of each action. A policy associates a decision with each possible state. The policy could be calculated (e.g., by iteration), be heuristic, or it can be learned.[39]
 
+Game theory describes the rational behavior of multiple interacting agents and is used in AI programs that make decisions that involve other agents.[40]
 
+Learning
+Machine learning is the study of programs that can improve their performance on a given task automatically.[41] It has been a part of AI from the beginning.[e]There are several kinds of machine learning. Unsupervised learning analyzes a stream of data and finds patterns and makes predictions without any other guidance.[44] Supervised learning requires labeling the training data with the expected answers, and comes in two main varieties: classification (where the program must learn to predict what category the input belongs in) and regression (where the program must deduce a numeric function based on numeric input).[45]
 
-School Of Computer Science,
-                   UPES,
-DEHRADUN- 248007, Uttarakhand
+In reinforcement learning, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good".[46] Transfer learning is when the knowledge gained from one problem is applied to a new problem.[47] Deep learning is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning.[48]
 
-Table of Contents
+Computational learning theory can assess learners by computational complexity, by sample complexity (how much data is required), or by other notions of optimization.[49]
 
+Natural language processing
+Natural language processing (NLP)[50] allows programs to read, write and communicate in human languages such as English. Specific problems include speech recognition, speech synthesis, machine translation, information extraction, information retrieval and question answering.[51]
 
-Topic	Page No
-   1	Abstract	3
-2	Introduction	3
-3	Problem Identification	3
-4	Proposed System Design	3-5
-5	Algorithms Discussed 	5-6
-    6	UML Diagram	6
-7	Results and Discussion	7
-8	Comparative Study	7-8
-9	Conclusion	9
-10	Future Work	9
-11	References	10
+Early work, based on Noam Chomsky's generative grammar and semantic networks, had difficulty with word-sense disambiguation[f] unless restricted to small domains called "micro-worlds" (due to the common sense knowledge problem[29]). Margaret Masterman believed that it was meaning and not grammar that was the key to understanding languages, and that thesauri and not dictionaries should be the basis of computational language structure.
 
-Chapter1: Abstract
+Modern deep learning techniques for NLP include word embedding (representing words, typically as vectors encoding their meaning),[52] transformers (a deep learning architecture using an attention mechanism),[53] and others.[54] In 2019, generative pre-trained transformer (or "GPT") language models began to generate coherent text,[55][56] and by 2023, these models were able to get human-level scores on the bar exam, SAT test, GRE test, and many other real-world applications.[57]
 
-The goal of the "Word Recommendation System for English Language" project is to create an intelligent system that simplifies and enhances the writing process. This system addresses the challenge of finding suitable and contextually accurate words by providing real-time suggestions based on prefixes and contextual probabilities. By combining efficient data structures and language models, it ensures precise and relevant word recommendations.
+Perception
+Machine perception is the ability to use input from sensors (such as cameras, microphones, wireless signals, active lidar, sonar, radar, and tactile sensors) to deduce aspects of the world. Computer vision is the ability to analyze visual input.[58]
 
- The project’s primary objective is to deliver a fast, user-friendly solution that improves writing speed and accuracy. The system leverages the Trie data structure for quick word retrieval and integrates Bigram and Trigram models for contextual accuracy. By analyzing initially typed characters and their sequence, the system predicts and suggests the most relevant words with their probabilities to the user.
+The field includes speech recognition,[59] image classification,[60] facial recognition, object recognition,[61]object tracking,[62] and robotic perception.[63]General intelligence
+A machine with artificial general intelligence should be able to solve a wide variety of problems with breadth and versatility similar to human intelligence.[68]
 
+Techniques
+AI research uses a wide variety of techniques to accomplish the goals above.[b]
 
-Chapter 2: Introduction
+Search and optimization
+AI can solve many problems by intelligently searching through many possible solutions.[69] There are two very different kinds of search used in AI: state space search and local search.
 
-In today’s digital world, effective communication is vital, but many users, especially non-native English speakers, struggle with typing. These challenges slow down the process, disrupt ideas, and reduce productivity.
+State space search
+State space search searches through a tree of possible states to try to find a goal state.[70] For example, planning algorithms search through trees of goals and subgoals, attempting to find a path to a target goal, a process called means-ends analysis.[71]
 
- In time-sensitive tasks like emails and reports, the need for quick, accurate writing is crucial. This project addresses these issues by developing a Word Recommendation System for English language that offers real-time word suggestions based on typed characters.
+Simple exhaustive searches[72] are rarely sufficient for most real-world problems: the search space (the number of places to search) quickly grows to astronomical numbers. The result is a search that is too slow or never completes.[15] "Heuristics" or "rules of thumb" can help prioritize choices that are more likely to reach a goal.[73]
 
-Using this tool, users can write faster and more accurately, focusing on content rather than searching for words. The system enhances communication by improving writing efficiency and reducing cognitive load across platforms like text editors and messaging apps.
+Adversarial search is used for game-playing programs, such as chess or Go. It searches through a tree of possible moves and countermoves, looking for a winning position.[74]
 
+Local searchuses mathematical optimization to find a solution to a problem. It begins with some form of guess and refines it incrementally.[75]
 
-Chapter 3: Problem Identification
+Gradient descent is a type of local search that optimizes a set of numerical parameters by incrementally adjusting them to minimize a loss function. Variants of gradient descent are commonly used to train neural networks,[76] through the backpropagation algorithm.
 
-Users often struggle to write quickly due to language proficiency issues or writing difficulties. A word recommendation system can assist by suggesting words as soon as the initial characters are typed. This project is aimed to develop a tool for enhancing communication across various platforms, such as writing documents, composing messages, and creating content, by improving speed and accuracy. By reducing the time spent searching for the right words, it enables users to write faster and more effectively
+Another type of local search is evolutionary computation, which aims to iteratively improve a set of candidate solutions by "mutating" and "recombining" them, selecting only the fittest to survive each generation.[77]
 
+Distributed search processes can coordinate via swarm intelligence algorithms. Two popular swarm algorithms used in search are particle swarm optimization (inspired by bird flocking) and ant colony optimization (inspired by ant trails).[78]
 
-Chapter 4: Proposed System Design
+Logic
+Formal logic is used for reasoning and knowledge representation.[79] Formal logic comes in two main forms: propositional logic (which operates on statements that are true or false and uses logical connectives such as "and", "or", "not" and "implies")[80] and predicate logic (which also operates on objects, predicates and relations and uses quantifiers such as "Every X is a Y" and "There are some Xs that are Ys").[81]
 
-The proposed system is a lightweight, Java-based word recommendation tool that enhances typing speed and accuracy by offering real-time, context-aware word suggestions. The Word Recommendation System design follows a structured approach to provide accurate and context-aware word suggestions to users. The system starts by loading a corpus of text to generate bigram and trigram models that understand the context of the user's input. It uses a Trie data structure to efficiently store and retrieve unique words from a CSV file, enabling quick word suggestions based on typed characters. To enhance recommendation accuracy, the system employs Laplace smoothing to adjust for less frequent word occurrences. The system also ranks the suggestions based on contextual relevance, ensuring users receive the most appropriate word choices. The user-friendly interface, built with Spring Boot, allows for seamless interaction, ensuring real-time suggestions and improving typing efficiency. This design aims to provide a fast, scalable solution that can be integrated into various writing platforms.
+Deductive reasoning in logic is the process of proving a new statement (conclusion) from other statements that are given and assumed to be true (the premises).[82] Proofs can be structured as proof trees, in which nodes are labelled by sentences, and children nodes are connected to parent nodes by inference rules.
 
-1)Input Capture
-•	The system captures user input in real-time as the user types.
-•	The input is analyzed to identify the prefix, which triggers the generation of word suggestions.
-•	If no prefix is typed, the system predicts the next word based on the last word or the last two words provided by the user.
-•	Contextual predictions leverage bigram and trigram models derived from a preprocessed corpus.
-•	This dual approach ensures both prefix-based and context-based predictions are supported, enhancing the user experience.
+Given a problem and a set of premises, problem-solving reduces to searching for a proof tree whose root node is labelled by a solution of the problem and whose leaf nodes are labelled by premises or axioms. In the case of Horn clauses, problem-solving search can be performed by reasoning forwards from the premises or backwards from the problem.[83] In the more general case of the clausal form of first-order logic, resolution is a single, axiom-free rule of inference, in which a problem is solved by proving a contradiction from premises that include the negation of the problem to be solved.[84]
 
-2)Trie-Based Word Retrieval
-•	A Trie data structure is prebuilt using a collection of unique words from the English dictionary or a specific word dataset.
-•	As the user types, the system traverses the Trie to find all words that match the given prefix.
-•	Trie traversal allows efficient and quick retrieval of candidate word completions, even for large datasets.
-•	The retrieved words serve as initial suggestions, which can be further refined based on context.
+Inference in both Horn clause logic and first-order logic is undecidable, and therefore intractable. However, backward reasoning with Horn clauses, which underpins computation in the logic programming language Prolog, is Turing complete. Moreover, its efficiency is competitive with computation in other symbolic programming languages.[85]
 
-3)Bigram and Trigram Context Analysis
-•	To generate contextually relevant suggestions, the system uses a preprocessed corpus to build bigrams and trigrams
-•	The system calculates probabilities for the next word using these frequency counts.
-•	If the user provides only the last word, the system uses bigram probabilities to predict the next word.
-•	If the user provides the last two words, the system uses trigram probabilities for more accurate predictions.
+Fuzzy logic assigns a "degree of truth" between 0 and 1. It can therefore handle propositions that are vague and partially true.[86]
 
-4)Laplace Smoothing for Probability Calculation
-•	Laplace smoothing is applied to address the problem of zero probabilities when a bigram/trigram combination is not found in the corpus.
-•	For bigram and trigram probabilities: The system calculates the smoothed probability using the formula:
+Non-monotonic logics, including logic programming with negation as failure, are designed to handle default reasoning.[28] Other specialized versions of logic have been developed to describe many complex domains.
 
+Probabilistic methods for uncertain reasoningMany problems in AI (including reasoning, planning, learning, perception, and robotics) require the agent to operate with incomplete or uncertain information. AI researchers have devised a number of tools to solve these problems using methods from probability theory and economics.[87] Precise mathematical tools have been developed that analyze how an agent can make choices and plan, using decision theory, decision analysis,[88] and information value theory.[89] These tools include models such as Markov decision processes,[90] dynamic decision networks,[91] game theory and mechanism design.[92]
 
-•	Benefits of Laplace Smoothing:
-o	Prevents zero probabilities for unseen bigram or trigram combinations.
-o	Ensures that all candidate words receive a non-zero probability, improving robustness and consistency in suggestions.
+Bayesian networks[93] are a tool that can be used for reasoning (using the Bayesian inference algorithm),[g][95] learning (using the expectation–maximization algorithm),[h][97] planning (using decision networks)[98] and perception (using dynamic Bayesian networks).[91]
 
-5)Ranking and Filtering Suggestions
-•	After retrieving candidate words from the Trie or calculating bigram/trigram probabilities, the system ranks the suggestions based on their probabilities.
-•	Probability Ranking: Words with higher contextual probability (based on bigram/trigram models) are ranked higher and to enhance clarity and usability, only the top 5 words with the highest probabilities are displayed to the user.
+Probabilistic algorithms can also be used for filtering, prediction, smoothing, and finding explanations for streams of data, thus helping perception systems analyze processes that occur over time (e.g., hidden Markov models or Kalman filters).[91]Classifiers and statistical learning methods
+The simplest AI applications can be divided into two types: classifiers (e.g., "if shiny then diamond"), on one hand, and controllers (e.g., "if diamond then pick up"), on the other hand. Classifiers[99] are functions that use pattern matching to determine the closest match. They can be fine-tuned based on chosen examples using supervised learning. Each pattern (also called an "observation") is labeled with a certain predefined class. All the observations combined with their class labels are known as a data set. When a new observation is received, that observation is classified based on previous experience.[45]
 
+There are many kinds of classifiers in use.[100] The decision tree is the simplest and most widely used symbolic machine learning algorithm.[101] K-nearest neighbor algorithm was the most widely used analogical AI until the mid-1990s, and Kernel methods such as the support vector machine (SVM) displaced k-nearest neighbor in the 1990s.[102] The naive Bayes classifier is reportedly the "most widely used learner"[103] at Google, due in part to its scalability.[104] Neural networks are also used as classifiers.[105]
 
-Chapter 5: Algorithms discussed
-
-1.	Trie Data Structure for Word Storage: Store words efficiently and support quick word lookup, prefix search, and bigram/trigram-based word prediction.
-•	STEPS:
-	Initialize Trie: Create a Trie root node and initialize structures for storing unique words and bigrams/trigrams.
-	Insert Words: Insert words into the Trie using a CSV file containing unique words.
-	Corpus Processing: Read the corpus file and process the text to generate bigrams and trigrams for word predictions.
-	Word Lookup: Use the Trie to store and search for words and prefixes that match user input.
-
-2.	Bigram/Trigram Processing Algorithm: Process the corpus to generate bigrams and trigrams for improved word prediction accuracy.
-•	STEPS:
-	Read the Corpus: Read through a corpus of text (e.g., sentences) to extract word sequences.
-	Generate Bigrams: For each pair of consecutive words, store them as a bigram (two words together) and track their frequencies.
-	Generate Trigrams: Similarly, generate trigrams (sequences of three consecutive words) and track their frequencies.
-	Store bigram/trigrams: Store the bigrams and trigrams in appropriate data structures (like HashMaps) for efficient retrieval during predictions.
-
-3.	Word Prediction Algorithm: Predict the next word based on user input, leveraging bigram and trigram models.
-•	STEPS:
-	Input Processing: Accept a user’s input, consisting of a prefix, the last word typed, and optionally, the second-to-last word.
-	Match Prefix: Search the Trie to find words that match the input prefix and Select Prediction Model based on-
-o	If only one word is provided (last word), use the bigram model to predict the next word based on the preceding word.
-o	If both the last and second-to-last words are provided, use the trigram model to predict the next word based on the two preceding words.
-
-4.	Calculate Probabilities: Use frequency data from bigrams and trigrams to calculate the probability of each word being the next in the sequence, applying smoothing techniques for rare or unseen words.
-
-5.	Return Suggestions: Display the predicted words with their probabilities for the user to choose from.
-
-6.	User Interface Algorithm: Provide a simple interface for users to input their text and receive word predictions.
-•	STEPS:
-	Accept User Input: Prompt users to input a word prefix, the last word, and optionally the second-to-last word for more accurate predictions.
-	Display Suggestions: After processing the input, display the predicted words, including the probability of each prediction.
-
-Chapter 6: UML Diagram
-
-
-Chapter 7: Results and Discussion
-
-The implemented word recommendation system effectively predicts the next word or auto-completes user input based on bigram and trigram models combined with a Trie structure. The use of Laplace smoothing ensures that even unseen word combinations receive a non-zero probability, enhancing the system's robustness. During testing, the system demonstrated fast and accurate word retrieval, with contextually relevant suggestions ranked using their probabilities. By limiting the output to the top 5 suggestions, the interface remains user-friendly and avoids overwhelming the user with unnecessary options. The results show that the incorporation of bigram/trigram context analysis significantly improves prediction accuracy compared to simple prefix-based retrieval, making the system suitable for real-time applications like text editors or chat interfaces.
-
-	Suggestion Probability: Shows the probability of each suggested word based on the entered context, calculated from bigrams/trigrams in the corpus.
-	Real-Time Feedback: Offers immediate word suggestions as the user types, updating in real-time.
-	Word List Display: Shows a list of top predicted words with probabilities.
-
-
-Chapter 8: Comparative Study
-For the Given corpus:
-
-And for the Given Input:
-
-Bigram Probabilities:
-
-Probability for “pizza” = Occurrences of  “love pizza”/ Occurrences of  “love”
-                                        = 7/9 =0.78
-Probability for “pasta” = Occurrences of  “love pasta”/ Occurrences of  “love”
-                                        = 2/9 =0.22
-
-Probability for other words = Occurrences of  (“love ”+other words)+1/ Occurrences of                  “love”+vocabulary size
-Trigram Probabilities:
-
-Probability for “pizza” = Occurrences of  “you love pizza”/ Occurrences of  “you love”
-                                        = 2/4 =0.50
-Probability for “pasta” = Occurrences of  “you love pasta”/ Occurrences of  “you love”
-                                        = 2/4 =0.50
-Probability for other words = Occurrences of  (“you love ”+other words)+1/ Occurrences of                  “you love” + vocabulary size
-
-Conclusion
-•	In the Bigram model, "pizza" has a higher probability (7/9), dominating the prediction.
-•	In the Trigram model, "pizza" and "pasta" have equal probabilities (0.5) under the context "You love", as it focuses on two-word history.
-This corpus effectively shows how Bigram predictions are more generalized (single-word context), while Trigram predictions are context-aware (two-word context).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Chapter 9: Conclusion
-
-The Word Recommendation System efficiently suggests the next word based on user input, utilizing bigram and trigram models trained on a large text corpus. By calculating the likelihood of each word, it provides relevant suggestions, improving typing speed and accuracy. The user-friendly interface ensures ease of use, while the system’s structure, using Trie for fast word storage and retrieval, boosts performance. Overall, the system demonstrates its effectiveness in enhancing text input, with potential for future improvements.
-
-
-Chapter 10: Future Work
-
-While the current system effectively utilizes bigram and trigram models for auto-completion, there is significant potential for further enhancements. By incorporating advanced techniques and extending the model capabilities, the system can achieve improved accuracy, scalability, and contextual understanding. The following points outline some key areas for future work:
-
-•	Integration of Neural Language Models
-Incorporating advanced language models like RNNs, LSTMs, or Transformers can further improve prediction accuracy by capturing deeper contextual relationships and long-term dependencies in the text
-
-•	Multilingual Support
-Extending the system to support multiple languages would make it more versatile, allowing it to cater to diverse user groups.
-
-•	Higher Order N-grams-
-The system can be expanded to include higher-order n-grams (e.g., 4-grams, 5-grams, or beyond) to capture more complex contextual relationships in text. While bigram and trigram models provide substantial improvement, higher n-grams would allow the system to better understand longer sequences of words, leading to more accurate predictions and suggestions. To handle the increased computational complexity and sparsity of higher-order n-grams, techniques like back-off smoothing or Katz smoothing can be implemented to ensure efficient processing and robust performance.
-
-
-
-
-
-
-
-
-
-
-
-
-Chapter 11: References
-
-[1]Steffen Bickel, Peter Haider, and Tobias Scheffer. 2005. Predicting sentences using N-gram language models. In Proceedings of the conference on Human Language Technology and Empirical Methods in Natural Language Processing (HLT '05). Association for Computational Linguistics, USA, 193–200. https://doi.org/10.3115/1220575.1220600
-
-[2]D. Nagalavi and M. Hanumanthappa, "N-gram Word prediction language models to identify the sequence of article blocks in English e-newspapers," 2016 International Conference on Computation System and Information Technology for Sustainable Solutions (CSITSS), Bengaluru, India, 2016, pp. 307-311, doi: 10.1109/CSITSS.2016.7779376. keywords: {Layout;Stochastic processes;Writing;N-Gram;Newspaper;Natural Language Processing;Word Prediction;backoff method;Interpolation},.
-
-[3]Emon, R. Y., & Tista, S. C. (2019). An Efficient Word Lookup System by using Improved Trie Algorithm. arXiv preprint arXiv:1911.01763.
-
-[4]Muttaqin, M. I., Nurdin, Y., & Bahri, A. (2023). Implementation of Word Recommendation System Using Hybrid Method for Speed Typing Website. Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi), 7(1), 7-14.
-
-[5] https://iq.opengenus.org/autocomplete-using-trie-data-structure/
-
-
-
-
+Artificial neural networks
