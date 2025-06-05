@@ -1,0 +1,240 @@
+**Subject:** Elevate Your Brand with Us! 🚀
+
+Looking to expand your reach and boost your brand? Advertise with us and connect with a highly engaged audience! Our platform offers premium ad placements tailored to your needs, ensuring maximum visibility and impact. Whether you're launching a new product, running a promotion, or building awareness, we’ve got you covered. With competitive rates and personalized campaigns, we’ll help you achieve your goals effectively. Don't miss this opportunity to stand out in the market.
+
+📩 Contact us today to learn more and secure your spot!
+
+[Your Contact Information]
+Let's grow together!
+END TERM REPORT
+For
+
+Word Recommendation System for English Language
+
+Under the guidance of
+
+Dr. Mohammad Ahsan
+Assistant Professor
+Artificial Intelligence Cluster
+
+Prepared by
+
+
+Specialization	SAP ID	Name
+AIML	500107121	Aryan.
+AIML	500108364	Raman Agrawal
+AIML	500107071	Ananya Gambhir
+AIML	500108587	Yash Dangi
+
+
+
+
+
+
+School Of Computer Science,
+                   UPES,
+DEHRADUN- 248007, Uttarakhand
+
+Table of Contents
+
+
+Topic	Page No
+   1	Abstract	3
+2	Introduction	3
+3	Problem Identification	3
+4	Proposed System Design	3-5
+5	Algorithms Discussed 	5-6
+    6	UML Diagram	6
+7	Results and Discussion	7
+8	Comparative Study	7-8
+9	Conclusion	9
+10	Future Work	9
+11	References	10
+
+Chapter1: Abstract
+
+The goal of the "Word Recommendation System for English Language" project is to create an intelligent system that simplifies and enhances the writing process. This system addresses the challenge of finding suitable and contextually accurate words by providing real-time suggestions based on prefixes and contextual probabilities. By combining efficient data structures and language models, it ensures precise and relevant word recommendations.
+
+ The project’s primary objective is to deliver a fast, user-friendly solution that improves writing speed and accuracy. The system leverages the Trie data structure for quick word retrieval and integrates Bigram and Trigram models for contextual accuracy. By analyzing initially typed characters and their sequence, the system predicts and suggests the most relevant words with their probabilities to the user.
+
+
+Chapter 2: Introduction
+
+In today’s digital world, effective communication is vital, but many users, especially non-native English speakers, struggle with typing. These challenges slow down the process, disrupt ideas, and reduce productivity.
+
+ In time-sensitive tasks like emails and reports, the need for quick, accurate writing is crucial. This project addresses these issues by developing a Word Recommendation System for English language that offers real-time word suggestions based on typed characters.
+
+Using this tool, users can write faster and more accurately, focusing on content rather than searching for words. The system enhances communication by improving writing efficiency and reducing cognitive load across platforms like text editors and messaging apps.
+
+
+Chapter 3: Problem Identification
+
+Users often struggle to write quickly due to language proficiency issues or writing difficulties. A word recommendation system can assist by suggesting words as soon as the initial characters are typed. This project is aimed to develop a tool for enhancing communication across various platforms, such as writing documents, composing messages, and creating content, by improving speed and accuracy. By reducing the time spent searching for the right words, it enables users to write faster and more effectively
+
+
+Chapter 4: Proposed System Design
+
+The proposed system is a lightweight, Java-based word recommendation tool that enhances typing speed and accuracy by offering real-time, context-aware word suggestions. The Word Recommendation System design follows a structured approach to provide accurate and context-aware word suggestions to users. The system starts by loading a corpus of text to generate bigram and trigram models that understand the context of the user's input. It uses a Trie data structure to efficiently store and retrieve unique words from a CSV file, enabling quick word suggestions based on typed characters. To enhance recommendation accuracy, the system employs Laplace smoothing to adjust for less frequent word occurrences. The system also ranks the suggestions based on contextual relevance, ensuring users receive the most appropriate word choices. The user-friendly interface, built with Spring Boot, allows for seamless interaction, ensuring real-time suggestions and improving typing efficiency. This design aims to provide a fast, scalable solution that can be integrated into various writing platforms.
+
+1)Input Capture
+•	The system captures user input in real-time as the user types.
+•	The input is analyzed to identify the prefix, which triggers the generation of word suggestions.
+•	If no prefix is typed, the system predicts the next word based on the last word or the last two words provided by the user.
+•	Contextual predictions leverage bigram and trigram models derived from a preprocessed corpus.
+•	This dual approach ensures both prefix-based and context-based predictions are supported, enhancing the user experience.
+
+2)Trie-Based Word Retrieval
+•	A Trie data structure is prebuilt using a collection of unique words from the English dictionary or a specific word dataset.
+•	As the user types, the system traverses the Trie to find all words that match the given prefix.
+•	Trie traversal allows efficient and quick retrieval of candidate word completions, even for large datasets.
+•	The retrieved words serve as initial suggestions, which can be further refined based on context.
+
+3)Bigram and Trigram Context Analysis
+•	To generate contextually relevant suggestions, the system uses a preprocessed corpus to build bigrams and trigrams
+•	The system calculates probabilities for the next word using these frequency counts.
+•	If the user provides only the last word, the system uses bigram probabilities to predict the next word.
+•	If the user provides the last two words, the system uses trigram probabilities for more accurate predictions.
+
+4)Laplace Smoothing for Probability Calculation
+•	Laplace smoothing is applied to address the problem of zero probabilities when a bigram/trigram combination is not found in the corpus.
+•	For bigram and trigram probabilities: The system calculates the smoothed probability using the formula:
+
+
+•	Benefits of Laplace Smoothing:
+o	Prevents zero probabilities for unseen bigram or trigram combinations.
+o	Ensures that all candidate words receive a non-zero probability, improving robustness and consistency in suggestions.
+
+5)Ranking and Filtering Suggestions
+•	After retrieving candidate words from the Trie or calculating bigram/trigram probabilities, the system ranks the suggestions based on their probabilities.
+•	Probability Ranking: Words with higher contextual probability (based on bigram/trigram models) are ranked higher and to enhance clarity and usability, only the top 5 words with the highest probabilities are displayed to the user.
+
+
+Chapter 5: Algorithms discussed
+
+1.	Trie Data Structure for Word Storage: Store words efficiently and support quick word lookup, prefix search, and bigram/trigram-based word prediction.
+•	STEPS:
+	Initialize Trie: Create a Trie root node and initialize structures for storing unique words and bigrams/trigrams.
+	Insert Words: Insert words into the Trie using a CSV file containing unique words.
+	Corpus Processing: Read the corpus file and process the text to generate bigrams and trigrams for word predictions.
+	Word Lookup: Use the Trie to store and search for words and prefixes that match user input.
+
+2.	Bigram/Trigram Processing Algorithm: Process the corpus to generate bigrams and trigrams for improved word prediction accuracy.
+•	STEPS:
+	Read the Corpus: Read through a corpus of text (e.g., sentences) to extract word sequences.
+	Generate Bigrams: For each pair of consecutive words, store them as a bigram (two words together) and track their frequencies.
+	Generate Trigrams: Similarly, generate trigrams (sequences of three consecutive words) and track their frequencies.
+	Store bigram/trigrams: Store the bigrams and trigrams in appropriate data structures (like HashMaps) for efficient retrieval during predictions.
+
+3.	Word Prediction Algorithm: Predict the next word based on user input, leveraging bigram and trigram models.
+•	STEPS:
+	Input Processing: Accept a user’s input, consisting of a prefix, the last word typed, and optionally, the second-to-last word.
+	Match Prefix: Search the Trie to find words that match the input prefix and Select Prediction Model based on-
+o	If only one word is provided (last word), use the bigram model to predict the next word based on the preceding word.
+o	If both the last and second-to-last words are provided, use the trigram model to predict the next word based on the two preceding words.
+
+4.	Calculate Probabilities: Use frequency data from bigrams and trigrams to calculate the probability of each word being the next in the sequence, applying smoothing techniques for rare or unseen words.
+
+5.	Return Suggestions: Display the predicted words with their probabilities for the user to choose from.
+
+6.	User Interface Algorithm: Provide a simple interface for users to input their text and receive word predictions.
+•	STEPS:
+	Accept User Input: Prompt users to input a word prefix, the last word, and optionally the second-to-last word for more accurate predictions.
+	Display Suggestions: After processing the input, display the predicted words, including the probability of each prediction.
+
+Chapter 6: UML Diagram
+
+
+Chapter 7: Results and Discussion
+
+The implemented word recommendation system effectively predicts the next word or auto-completes user input based on bigram and trigram models combined with a Trie structure. The use of Laplace smoothing ensures that even unseen word combinations receive a non-zero probability, enhancing the system's robustness. During testing, the system demonstrated fast and accurate word retrieval, with contextually relevant suggestions ranked using their probabilities. By limiting the output to the top 5 suggestions, the interface remains user-friendly and avoids overwhelming the user with unnecessary options. The results show that the incorporation of bigram/trigram context analysis significantly improves prediction accuracy compared to simple prefix-based retrieval, making the system suitable for real-time applications like text editors or chat interfaces.
+
+	Suggestion Probability: Shows the probability of each suggested word based on the entered context, calculated from bigrams/trigrams in the corpus.
+	Real-Time Feedback: Offers immediate word suggestions as the user types, updating in real-time.
+	Word List Display: Shows a list of top predicted words with probabilities.
+
+
+Chapter 8: Comparative Study
+For the Given corpus:
+
+And for the Given Input:
+
+Bigram Probabilities:
+
+Probability for “pizza” = Occurrences of  “love pizza”/ Occurrences of  “love”
+                                        = 7/9 =0.78
+Probability for “pasta” = Occurrences of  “love pasta”/ Occurrences of  “love”
+                                        = 2/9 =0.22
+
+Probability for other words = Occurrences of  (“love ”+other words)+1/ Occurrences of                  “love”+vocabulary size
+Trigram Probabilities:
+
+Probability for “pizza” = Occurrences of  “you love pizza”/ Occurrences of  “you love”
+                                        = 2/4 =0.50
+Probability for “pasta” = Occurrences of  “you love pasta”/ Occurrences of  “you love”
+                                        = 2/4 =0.50
+Probability for other words = Occurrences of  (“you love ”+other words)+1/ Occurrences of                  “you love” + vocabulary size
+
+Conclusion
+•	In the Bigram model, "pizza" has a higher probability (7/9), dominating the prediction.
+•	In the Trigram model, "pizza" and "pasta" have equal probabilities (0.5) under the context "You love", as it focuses on two-word history.
+This corpus effectively shows how Bigram predictions are more generalized (single-word context), while Trigram predictions are context-aware (two-word context).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter 9: Conclusion
+
+The Word Recommendation System efficiently suggests the next word based on user input, utilizing bigram and trigram models trained on a large text corpus. By calculating the likelihood of each word, it provides relevant suggestions, improving typing speed and accuracy. The user-friendly interface ensures ease of use, while the system’s structure, using Trie for fast word storage and retrieval, boosts performance. Overall, the system demonstrates its effectiveness in enhancing text input, with potential for future improvements.
+
+
+Chapter 10: Future Work
+
+While the current system effectively utilizes bigram and trigram models for auto-completion, there is significant potential for further enhancements. By incorporating advanced techniques and extending the model capabilities, the system can achieve improved accuracy, scalability, and contextual understanding. The following points outline some key areas for future work:
+
+•	Integration of Neural Language Models
+Incorporating advanced language models like RNNs, LSTMs, or Transformers can further improve prediction accuracy by capturing deeper contextual relationships and long-term dependencies in the text
+
+•	Multilingual Support
+Extending the system to support multiple languages would make it more versatile, allowing it to cater to diverse user groups.
+
+•	Higher Order N-grams-
+The system can be expanded to include higher-order n-grams (e.g., 4-grams, 5-grams, or beyond) to capture more complex contextual relationships in text. While bigram and trigram models provide substantial improvement, higher n-grams would allow the system to better understand longer sequences of words, leading to more accurate predictions and suggestions. To handle the increased computational complexity and sparsity of higher-order n-grams, techniques like back-off smoothing or Katz smoothing can be implemented to ensure efficient processing and robust performance.
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter 11: References
+
+[1]Steffen Bickel, Peter Haider, and Tobias Scheffer. 2005. Predicting sentences using N-gram language models. In Proceedings of the conference on Human Language Technology and Empirical Methods in Natural Language Processing (HLT '05). Association for Computational Linguistics, USA, 193–200. https://doi.org/10.3115/1220575.1220600
+
+[2]D. Nagalavi and M. Hanumanthappa, "N-gram Word prediction language models to identify the sequence of article blocks in English e-newspapers," 2016 International Conference on Computation System and Information Technology for Sustainable Solutions (CSITSS), Bengaluru, India, 2016, pp. 307-311, doi: 10.1109/CSITSS.2016.7779376. keywords: {Layout;Stochastic processes;Writing;N-Gram;Newspaper;Natural Language Processing;Word Prediction;backoff method;Interpolation},.
+
+[3]Emon, R. Y., & Tista, S. C. (2019). An Efficient Word Lookup System by using Improved Trie Algorithm. arXiv preprint arXiv:1911.01763.
+
+[4]Muttaqin, M. I., Nurdin, Y., & Bahri, A. (2023). Implementation of Word Recommendation System Using Hybrid Method for Speed Typing Website. Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi), 7(1), 7-14.
+
+[5] https://iq.opengenus.org/autocomplete-using-trie-data-structure/
+
+
+
+
